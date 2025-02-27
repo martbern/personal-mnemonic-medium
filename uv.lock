@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.11"
 resolution-markers = [
     "python_full_version < '3.13'",
@@ -570,7 +571,7 @@ wheels = [
 
 [[package]]
 name = "memium"
-version = "0.25.34"
+version = "0.25.35"
 source = { editable = "." }
 dependencies = [
     { name = "bs4" },
@@ -620,7 +621,7 @@ requires-dist = [
     { name = "markdown", specifier = "==3.7" },
     { name = "pre-commit", marker = "extra == 'dev'", specifier = "==4.1.0" },
     { name = "pydantic", specifier = "==2.10.6" },
-    { name = "pyright", marker = "extra == 'dev'", specifier = "==1.1.393" },
+    { name = "pyright", marker = "extra == 'dev'", specifier = "==1.1.395" },
     { name = "pytest", marker = "extra == 'tests'", specifier = "==8.3.4" },
     { name = "pytest-cov", marker = "extra == 'tests'", specifier = "==6.0.0" },
     { name = "pytest-sugar", marker = "extra == 'tests'", specifier = "==1.0.0" },
@@ -634,6 +635,7 @@ requires-dist = [
     { name = "unidecode", specifier = "==1.3.8" },
     { name = "wasabi", specifier = "==1.1.3" },
 ]
+provides-extras = ["tests", "dev"]
 
 [[package]]
 name = "nodeenv"
@@ -786,15 +788,15 @@ wheels = [
 
 [[package]]
 name = "pyright"
-version = "1.1.393"
+version = "1.1.395"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "nodeenv" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f4/c1/aede6c74e664ab103673e4f1b7fd3d058fef32276be5c43572f4067d4a8e/pyright-1.1.393.tar.gz", hash = "sha256:aeeb7ff4e0364775ef416a80111613f91a05c8e01e58ecfefc370ca0db7aed9c", size = 3790430 }
+sdist = { url = "https://files.pythonhosted.org/packages/fb/47/a2e1dfd70f9f0db34f70d5b108c82be57bf24185af69c95acff57f9239fa/pyright-1.1.395.tar.gz", hash = "sha256:53703169068c160bfb41e1b44ba3e2512492869c26cfad927e1268cb3fbb1b1c", size = 3813566 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/92/47/f0dd0f8afce13d92e406421ecac6df0990daee84335fc36717678577d3e0/pyright-1.1.393-py3-none-any.whl", hash = "sha256:8320629bb7a44ca90944ba599390162bf59307f3d9fb6e27da3b7011b8c17ae5", size = 5646057 },
+    { url = "https://files.pythonhosted.org/packages/5f/a1/531897f8caa6c6cc99862cd1c908ddd8a366a51d968e83ab4523ded98b30/pyright-1.1.395-py3-none-any.whl", hash = "sha256:f9bc726870e740c6c77c94657734d90563a3e9765bb523b39f5860198ed75eef", size = 5688787 },
 ]
 
 [[package]]
